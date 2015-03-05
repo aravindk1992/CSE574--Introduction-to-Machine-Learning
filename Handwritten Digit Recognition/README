@@ -1,0 +1,1 @@
+The project implements and evaluates classification algorithms. Logistic regression and neural network implementation of handwritten digit recognition have been carried out and verified against publicly available packages in matlab. Refer to the project report for more information on the implementation.
