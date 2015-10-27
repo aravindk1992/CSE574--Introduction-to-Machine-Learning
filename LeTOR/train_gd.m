@@ -26,7 +26,7 @@ test_data=A(train_rn+validation_rn+1:train_rn+validation_rn+test_rn,2:47); % Loa
 %Calculating mean and variance mu(i) and sigma(i)
 %Compute Mu and Sigma in a random fashion
 eta=0.000000053;
-for l=1:complexity
+
 for i=1:complexity     
     for j=1:46  %randomly compute the columns and store the mean and variance of the column
       mu(j)=mean(train_data(:,randi(46,1))); 
